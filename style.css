@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu);
+
+body {    
+    font-family: 'Ubuntu';
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.features img {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-text {
+    padding-right: 50px;
+    width: 700px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.information img {
+    margin-bottom: 16px;
+}
+
+.features {
+    max-width: 200px;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    max-width: 700px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    text-align:justify;
+    padding-bottom: 10px;
+}
+
+.quote .quote-author {
+    align-self:flex-end;
+    font-weight: 700;
+}
+
+.call-to-action {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.cta-subbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+.cta-signup {
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    border-radius: 8px;
+    box-shadow: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+}
+
+.footer {
+    height: 75px;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+}
+
+.company-name {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-signup {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+}
+
+figcaption {
+    font-size: 10px;
+    text-align: right;
+}
